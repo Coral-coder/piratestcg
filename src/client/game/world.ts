@@ -130,7 +130,7 @@ export class World {
 
     this.fx = new Effects(low ? 0.6 : 1);
     this.scene.add(this.fx.group, this.overlay);
-    this.coins = new THREE.InstancedMesh(coinGeometry(), lambert('#f2c14e', { emissive: '#4a3200' }), 80);
+    this.coins = new THREE.InstancedMesh(coinGeometry(), lambert('#ffd24a', { emissive: '#6a4a00' }), 80);
     this.coins.count = 0;
     this.chests = new THREE.InstancedMesh(chestGeometry(), lambert('#8b5a2b'), 16);
     this.chests.count = 0;
@@ -248,8 +248,8 @@ export class World {
           continue;
         }
         // Stacks of three.
-        const sx = spot.x + Math.floor(k / 3) * 0.38 - (isl.home !== null ? 0.6 : 0);
-        m.makeTranslation(sx, spot.y + (k % 3) * 0.055, spot.z);
+        const sx = spot.x + (Math.floor(k / 3) - 0.5) * 0.52;
+        m.makeTranslation(sx, spot.y + (k % 3) * 0.075, spot.z);
         if (n < 80) this.coins.setMatrixAt(n++, m);
         k++;
       }

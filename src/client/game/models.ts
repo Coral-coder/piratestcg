@@ -369,7 +369,13 @@ export function buildIsland(isl: { x: number; y: number; r: number; look: number
     fort.position.set(-isl.r * 0.2, 0, -isl.r * 0.15);
     group.add(fort);
   }
-  return { group, coinSpot: new THREE.Vector3(isl.x + isl.r * 0.35, 0.32, isl.y + isl.r * 0.3), palms };
+  // Treasure sits on the beach, clear of the hill.
+  const hx = hill.position.x;
+  const hz = hill.position.z;
+  const len = Math.hypot(hx, hz) || 1;
+  const away = { x: -hx / len, z: -hz / len };
+  const beach = new THREE.Vector3(isl.x + away.x * isl.r * 0.72, 0.3, isl.y + away.z * isl.r * 0.72);
+  return { group, coinSpot: beach, palms };
 }
 
 export function palmTrunkGeometry() {
@@ -383,7 +389,7 @@ export function palmLeavesGeometry() {
   });
 }
 export function coinGeometry() {
-  return geo('coin', () => new THREE.CylinderGeometry(0.17, 0.17, 0.05, 10));
+  return geo('coin', () => new THREE.CylinderGeometry(0.24, 0.24, 0.07, 12));
 }
 export function chestGeometry() {
   return geo('chest', () => new THREE.BoxGeometry(0.34, 0.22, 0.24));
