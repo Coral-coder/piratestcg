@@ -141,6 +141,7 @@ input.switch { width: 46px; height: 26px; accent-color: var(--gold); }
 .turninfo small { opacity: .75; font-size: .75rem; }
 .end-turn { position: absolute; right: 10px; bottom: calc(10px + env(safe-area-inset-bottom)); z-index: 6; min-height: 50px; padding: 8px 16px; border-radius: 12px; border: 1px solid #ffd98a; background: linear-gradient(#e2a93b, #b97a1c); color: #1a1006; font-weight: 800; cursor: pointer; }
 .sheet { position: absolute; left: 8px; right: 8px; bottom: calc(8px + env(safe-area-inset-bottom)); z-index: 5; background: #0b1f2bf0; border: 1px solid #ffffff22; border-radius: 14px; padding: 10px; max-height: 48vh; overflow: auto; transform: translateY(0); transition: transform .2s; }
+.sheet.hidden { display: none; }
 .sheet.mini { right: 190px; background: #0b1f2bc0; padding: 8px 12px; }
 @media (min-width: 901px) {
   .sheet { right: auto; width: 560px; }

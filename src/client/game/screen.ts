@@ -741,6 +741,8 @@ export class GameScreen {
   private renderSheet(): void {
     clear(this.sheet);
     const st = this.state;
+    // Nothing to tap while the table animates: get out of the way.
+    this.sheet.classList.toggle('hidden', this.busy && !st.pending);
     // Pending choices first.
     if (st.pending && toAct(st) === HUMAN) {
       this.renderPending();

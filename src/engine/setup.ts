@@ -186,6 +186,6 @@ export function createGame(cfg: GameConfig, cat: Catalog, opts: SetupOptions = {
     b = rollD6(st.rng);
   }
   st.active = a > b ? 0 : 1;
-  st.log.push({ turn: 1, player: st.active, text: `Rolls ${a} vs ${b}: ${st.players[st.active].name} goes first.` });
+  st.log.push({ turn: 1, player: st.active, text: `Rolls ${a} vs ${b}: first move to ${st.players[st.active].name}.` });
   return st;
 }
