@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Lint
+        run: npm run lint
+      - name: Unit tests
+        run: npm test
+      - name: Chaos harness (bot vs bot)
+        run: npm run chaos -- 300 30
+      - name: Coverage report is up to date
+        run: |
+          npm run coverage-report
+          git diff --exit-code docs/coverage.md
+      - name: Bundle
+        run: npm run bundle
+      - name: Masked pack stays out of the default bundle
+        run: npm run check-mask

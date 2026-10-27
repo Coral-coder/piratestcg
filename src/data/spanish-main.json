@@ -1,0 +1,2567 @@
+[
+ {
+  "id": "SPN-001",
+  "name": "Revenant",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 15,
+  "masts": 5,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2L",
+   "2S",
+   "2S",
+   "2S",
+   "2L"
+  ],
+  "effects": [
+   {
+    "code": "clearShot"
+   }
+  ]
+ },
+ {
+  "id": "SPN-002",
+  "name": "Snipe",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 6,
+  "masts": 1,
+  "cargo": 1,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "immuneL"
+   }
+  ]
+ },
+ {
+  "id": "SPN-003",
+  "name": "Harbinger",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 17,
+  "masts": 5,
+  "cargo": 5,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2L",
+   "2S",
+   "2S",
+   "2S",
+   "2L"
+  ],
+  "effects": [
+   {
+    "code": "salvager"
+   }
+  ]
+ },
+ {
+  "id": "SPN-004",
+  "name": "Zephyr",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 5,
+  "masts": 1,
+  "cargo": 1,
+  "move": [
+   "L",
+   "L"
+  ],
+  "cannons": [
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "SPN-005",
+  "name": "Shadow",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 13,
+  "masts": 4,
+  "cargo": 6,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "4L",
+   "4L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "raidHome"
+   }
+  ]
+ },
+ {
+  "id": "SPN-006",
+  "name": "Pandora",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 3,
+  "cargo": 7,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "SPN-007",
+  "name": "Revenge",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "4L",
+   "4L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "English"
+   }
+  ]
+ },
+ {
+  "id": "SPN-008",
+  "name": "El Ladron",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2S",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "repairOnSink"
+   }
+  ]
+ },
+ {
+  "id": "SPN-009",
+  "name": "Sea Nymph",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 4,
+  "cargo": 3,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   }
+  ]
+ },
+ {
+  "id": "SPN-010",
+  "name": "Silverback",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 12,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "4L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "immuneL"
+   }
+  ]
+ },
+ {
+  "id": "SPN-011",
+  "name": "Darkhawk II",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 10,
+  "masts": 4,
+  "cargo": 8,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "3L",
+   "3L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "slowWhenLoaded"
+   }
+  ]
+ },
+ {
+  "id": "SPN-012",
+  "name": "Freedom",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 12,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "2L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "raidHome"
+   }
+  ]
+ },
+ {
+  "id": "SPN-013",
+  "name": "Raven's Neck",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 12,
+  "masts": 4,
+  "cargo": 6,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "2L",
+   "2L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "peekIsland"
+   }
+  ]
+ },
+ {
+  "id": "SPN-014",
+  "name": "Windjammer",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "2L",
+   "3S"
+  ],
+  "effects": []
+ },
+ {
+  "id": "SPN-015",
+  "name": "El Ballista",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 4,
+  "cargo": 2,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "4L",
+   "4L",
+   "4L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "pinKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "SPN-016",
+  "name": "Recreant",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2S",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "hitKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "SPN-017",
+  "name": "Treachery",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 5,
+  "masts": 2,
+  "cargo": 3,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "weakVs",
+    "faction": "English"
+   }
+  ]
+ },
+ {
+  "id": "SPN-018",
+  "name": "Longshanks",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 6,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cantLoadLast"
+   }
+  ]
+ },
+ {
+  "id": "SPN-019",
+  "name": "El Chico",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 5,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "weakVs",
+    "faction": "Spanish"
+   }
+  ]
+ },
+ {
+  "id": "SPN-020",
+  "name": "Greyhound",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "plusSWhenEmpty"
+   }
+  ]
+ },
+ {
+  "id": "SPN-021",
+  "name": "Carrion Crow",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 4,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "2S",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "misfire"
+   }
+  ]
+ },
+ {
+  "id": "SPN-022",
+  "name": "El Dorado",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 3,
+  "cargo": 2,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "2L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "salvager"
+   }
+  ]
+ },
+ {
+  "id": "SPN-023",
+  "name": "Royal Fortune",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 7,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "allowCrew",
+    "faction": "Spanish"
+   }
+  ]
+ },
+ {
+  "id": "SPN-024",
+  "name": "Muerta de la Corona",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Spanish"
+   }
+  ]
+ },
+ {
+  "id": "SPN-025",
+  "name": "Bonny Kate",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 7,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "allowCrew",
+    "faction": "English"
+   }
+  ]
+ },
+ {
+  "id": "SPN-026",
+  "name": "Batavian Bat",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 2,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "4S",
+   "4L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "immuneL"
+   }
+  ]
+ },
+ {
+  "id": "SPN-027",
+  "name": "Venture",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 4,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "sinksAtZero"
+   }
+  ]
+ },
+ {
+  "id": "SPN-028",
+  "name": "Silver Dagger",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "plusLWhenFull"
+   }
+  ]
+ },
+ {
+  "id": "SPN-029",
+  "name": "Calico Cat",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "doubleAction"
+   }
+  ]
+ },
+ {
+  "id": "SPN-030",
+  "name": "Captain Blackheart",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 5,
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "SPN-031a",
+  "name": "El Fantasma",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 4,
+  "links": [
+   "Ghost Crew"
+  ],
+  "effects": [
+   {
+    "code": "raidHome"
+   }
+  ]
+ },
+ {
+  "id": "SPN-031b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-032a",
+  "name": "Captain Jack Hawkins",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 4,
+  "links": [
+   "Skyme the Monkey"
+  ],
+  "effects": [
+   {
+    "code": "moveShoot"
+   },
+   {
+    "code": "pinKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "SPN-032b",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-033a",
+  "name": "Genny Gallows",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "links": [
+   "Genny's Red Rampage"
+  ],
+  "effects": [
+   {
+    "code": "treasureBonus",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "id": "SPN-033b",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-034a",
+  "name": "Ghost Crew",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 6,
+  "links": [
+   "El Fantasma"
+  ],
+  "effects": [
+   {
+    "code": "crewImmortal"
+   }
+  ]
+ },
+ {
+  "id": "SPN-034b",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-035a",
+  "name": "David \"Bones\" Wiley",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "links": [
+   "Lucky the Parrot"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "SPN-035b",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-036a",
+  "name": "Fidel Zuan",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "links": [
+   "Gaspar Zuan"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Spanish"
+   }
+  ]
+ },
+ {
+  "id": "SPN-036b",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-037a",
+  "name": "Skyme the Monkey",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "links": [
+   "Captain Jack Hawkins"
+  ],
+  "effects": [
+   {
+    "code": "pickpocket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-037b",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-038a",
+  "name": "Lucky the Parrot",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "links": [
+   "David \"Bones\" Wiley"
+  ],
+  "effects": [
+   {
+    "code": "peekCargo"
+   }
+  ]
+ },
+ {
+  "id": "SPN-038b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-039a",
+  "name": "Genny's Red Rampage",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "links": [
+   "Genny Gallows"
+  ],
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "SPN-039b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-040a",
+  "name": "Gaspar Zuan",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "links": [
+   "Fidel Zuan"
+  ],
+  "effects": [
+   {
+    "code": "crewDiscount"
+   }
+  ]
+ },
+ {
+  "id": "SPN-040b",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-041",
+  "name": "HMS Titan",
+  "kind": "ship",
+  "faction": "English",
+  "points": 17,
+  "masts": 5,
+  "cargo": 5,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2L",
+   "2L",
+   "2L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "extraAction"
+   }
+  ]
+ },
+ {
+  "id": "SPN-042",
+  "name": "HMS Albion",
+  "kind": "ship",
+  "faction": "English",
+  "points": 5,
+  "masts": 1,
+  "cargo": 2,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   }
+  ]
+ },
+ {
+  "id": "SPN-043",
+  "name": "HMS Lord Algernon",
+  "kind": "ship",
+  "faction": "English",
+  "points": 15,
+  "masts": 5,
+  "cargo": 3,
+  "move": [
+   "S"
+  ],
+  "cannons": [
+   "2S",
+   "2L",
+   "2L",
+   "2L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "ignoreFirstHit"
+   }
+  ]
+ },
+ {
+  "id": "SPN-044",
+  "name": "HMS Europa",
+  "kind": "ship",
+  "faction": "English",
+  "points": 8,
+  "masts": 1,
+  "cargo": 1,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "extraAction"
+   }
+  ]
+ },
+ {
+  "id": "SPN-045",
+  "name": "HMS Leicester",
+  "kind": "ship",
+  "faction": "English",
+  "points": 18,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "doubleHit"
+   }
+  ]
+ },
+ {
+  "id": "SPN-046",
+  "name": "HMS Oxley",
+  "kind": "ship",
+  "faction": "English",
+  "points": 15,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "4L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "doubleHit"
+   }
+  ]
+ },
+ {
+  "id": "SPN-047",
+  "name": "HMS King Edward",
+  "kind": "ship",
+  "faction": "English",
+  "points": 13,
+  "masts": 4,
+  "cargo": 6,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "4L",
+   "4L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusWithCaptain"
+   }
+  ]
+ },
+ {
+  "id": "SPN-048",
+  "name": "HMS Belle of Exeter",
+  "kind": "ship",
+  "faction": "English",
+  "points": 16,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "4L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "fixedCannons"
+   }
+  ]
+ },
+ {
+  "id": "SPN-049",
+  "name": "HMS Dover",
+  "kind": "ship",
+  "faction": "English",
+  "points": 10,
+  "masts": 4,
+  "cargo": 5,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3L",
+   "3S"
+  ],
+  "effects": []
+ },
+ {
+  "id": "SPN-050",
+  "name": "HMS Bolingbroke",
+  "kind": "ship",
+  "faction": "English",
+  "points": 10,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "2S",
+   "2L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "clearShot"
+   }
+  ]
+ },
+ {
+  "id": "SPN-051",
+  "name": "HMS Gallowglass",
+  "kind": "ship",
+  "faction": "English",
+  "points": 6,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "repairOnSink"
+   }
+  ]
+ },
+ {
+  "id": "SPN-052",
+  "name": "HMS Birkenhead",
+  "kind": "ship",
+  "faction": "English",
+  "points": 11,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "SPN-053",
+  "name": "HMS Meresman",
+  "kind": "ship",
+  "faction": "English",
+  "points": 6,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "longShot"
+   }
+  ]
+ },
+ {
+  "id": "SPN-054",
+  "name": "HMS Wycliffe",
+  "kind": "ship",
+  "faction": "English",
+  "points": 9,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "ramImmune"
+   }
+  ]
+ },
+ {
+  "id": "SPN-055",
+  "name": "HMS Plantagenet",
+  "kind": "ship",
+  "faction": "English",
+  "points": 8,
+  "masts": 2,
+  "cargo": 3,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "SPN-056",
+  "name": "HMS Lord Walpole",
+  "kind": "ship",
+  "faction": "English",
+  "points": 10,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "chooseMast"
+   }
+  ]
+ },
+ {
+  "id": "SPN-057",
+  "name": "Admiral Morgan",
+  "kind": "crew",
+  "faction": "English",
+  "points": 5,
+  "effects": [
+   {
+    "code": "extraAction"
+   }
+  ]
+ },
+ {
+  "id": "SPN-058",
+  "name": "Sir Christopher Myngs",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "links": [
+   "Myng's Marauders"
+  ],
+  "effects": [
+   {
+    "code": "doubleAction"
+   }
+  ]
+ },
+ {
+  "id": "SPN-059a",
+  "name": "Carbon Charlie",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "links": [
+   "Powder Pete"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "SPN-059b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "English",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-060a",
+  "name": "Thomas Gunn the Elder",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "links": [
+   "Thomas Gunn the Younger"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Spanish"
+   }
+  ]
+ },
+ {
+  "id": "SPN-060b",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-061a",
+  "name": "Governor Lynch",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "links": [
+   "Lynch's Noose"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "SPN-061b",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "English",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-062a",
+  "name": "Countess Diana Doone",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "links": [
+   "Brother Virgil"
+  ],
+  "effects": [
+   {
+    "code": "crewDiscount"
+   }
+  ]
+ },
+ {
+  "id": "SPN-062b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "English",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-063a",
+  "name": "Myngs Marauders",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "links": [
+   "Sir Christopher Myngs"
+  ],
+  "effects": [
+   {
+    "code": "clearShot"
+   }
+  ]
+ },
+ {
+  "id": "SPN-063b",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-064a",
+  "name": "Thomas Gunn the Younger",
+  "kind": "crew",
+  "faction": "English",
+  "points": 5,
+  "links": [
+   "Thomas Gunn the Elder"
+  ],
+  "effects": [
+   {
+    "code": "moveShoot"
+   },
+   {
+    "code": "hitKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "SPN-064b",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-065a",
+  "name": "Brother Virgil",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "links": [
+   "Countess Diana Doone"
+  ],
+  "effects": [
+   {
+    "code": "anyCrew"
+   }
+  ]
+ },
+ {
+  "id": "SPN-065b",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-066a",
+  "name": "Lynch's Noose",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "links": [
+   "Governor Lynch"
+  ],
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "SPN-066b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "English",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-067a",
+  "name": "Powder Pete",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "links": [
+   "Carbon Charlie"
+  ],
+  "effects": [
+   {
+    "code": "treasureBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "SPN-067b",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "English",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-068a",
+  "name": "Commander Temple",
+  "kind": "crew",
+  "faction": "English",
+  "points": 6,
+  "effects": [
+   {
+    "code": "salvager"
+   }
+  ]
+ },
+ {
+  "id": "SPN-068b",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-069",
+  "name": "El Acorazado",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 21,
+  "masts": 5,
+  "cargo": 5,
+  "move": [
+   "S"
+  ],
+  "cannons": [
+   "2S",
+   "3L",
+   "3L",
+   "3L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "armored"
+   }
+  ]
+ },
+ {
+  "id": "SPN-070",
+  "name": "Santa Teresa",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 9,
+  "masts": 1,
+  "cargo": 1,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "immuneL"
+   }
+  ]
+ },
+ {
+  "id": "SPN-071",
+  "name": "El Garante",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 21,
+  "masts": 5,
+  "cargo": 5,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3L",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusPerFriendly"
+   }
+  ]
+ },
+ {
+  "id": "SPN-072",
+  "name": "La Repulsa",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 14,
+  "masts": 1,
+  "cargo": 2,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusPerFriendly"
+   }
+  ]
+ },
+ {
+  "id": "SPN-073",
+  "name": "La Joya del Sol",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 12,
+  "masts": 4,
+  "cargo": 8,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "4S",
+   "4L",
+   "4L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "SPN-074",
+  "name": "El Tirador",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 8,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "hitKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "SPN-075",
+  "name": "L' Aguila",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 12,
+  "masts": 4,
+  "cargo": 5,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "2L",
+   "2L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "plunder",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "SPN-076",
+  "name": "Cazador Del Pirata",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 11,
+  "masts": 3,
+  "cargo": 6,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "SPN-077",
+  "name": "La Resolucion",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 12,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "3L",
+   "3L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "pickpocket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-078",
+  "name": "Asesino de la Nave",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 12,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2S",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "hitKillsCargo"
+   }
+  ]
+ },
+ {
+  "id": "SPN-079",
+  "name": "La Furia",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 12,
+  "masts": 2,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "doubleHit"
+   }
+  ]
+ },
+ {
+  "id": "SPN-080",
+  "name": "El Duque",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 11,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "4S",
+   "3L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusWithCaptain"
+   }
+  ]
+ },
+ {
+  "id": "SPN-081",
+  "name": "Pescados de Plata",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 8,
+  "masts": 2,
+  "cargo": 3,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "2S",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "moveAfterUnload"
+   }
+  ]
+ },
+ {
+  "id": "SPN-082",
+  "name": "El Corazon del Mar",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 8,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "4L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   }
+  ]
+ },
+ {
+  "id": "SPN-083",
+  "name": "El Picador",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 5,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3S"
+  ],
+  "effects": []
+ },
+ {
+  "id": "SPN-084",
+  "name": "El Leon",
+  "kind": "ship",
+  "faction": "Spanish",
+  "points": 9,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2L",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "ramImmune"
+   }
+  ]
+ },
+ {
+  "id": "SPN-085",
+  "name": "Capitán Alarico Castro",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "links": [
+   "Castro's Loyalists"
+  ],
+  "effects": [
+   {
+    "code": "doubleAction"
+   }
+  ]
+ },
+ {
+  "id": "SPN-086",
+  "name": "Comandante Luys de Alva",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "English"
+   }
+  ]
+ },
+ {
+  "id": "SPN-087a",
+  "name": "Master Gunner Rogelio Vazquez",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 5,
+  "links": [
+   "Joaquin Vega"
+  ],
+  "effects": [
+   {
+    "code": "allLRange"
+   }
+  ]
+ },
+ {
+  "id": "SPN-087b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-088a",
+  "name": "Master Bianco",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "links": [
+   "Bianco's Haulers"
+  ],
+  "effects": [
+   {
+    "code": "noCargoSpace"
+   },
+   {
+    "code": "cargoPlus"
+   }
+  ]
+ },
+ {
+  "id": "SPN-088b",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-089a",
+  "name": "Fernando Sanchez",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 5,
+  "links": [
+   "Nemesio Diaz"
+  ],
+  "effects": [
+   {
+    "code": "raidHome"
+   }
+  ]
+ },
+ {
+  "id": "SPN-089b",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-090a",
+  "name": "Almirante Devante del Nero",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "SPN-090b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-091a",
+  "name": "Castro's Loyalists",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 2,
+  "links": [
+   "Capitán Alarico Castro"
+  ],
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "SPN-091b",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-092a",
+  "name": "Joaquin Vega",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 4,
+  "links": [
+   "Master Gunner Rogelio Vazquez"
+  ],
+  "effects": [
+   {
+    "code": "ignoreFirstHit"
+   }
+  ]
+ },
+ {
+  "id": "SPN-092b",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-093a",
+  "name": "Bianco's Haulers",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "links": [
+   "Master Bianco"
+  ],
+  "effects": [
+   {
+    "code": "unloadWithinS"
+   }
+  ]
+ },
+ {
+  "id": "SPN-093b",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-094a",
+  "name": "Nemesio Diaz",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 5,
+  "links": [
+   "Fernando Sanchez"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "SPN-094b",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-095a",
+  "name": "Gonzalo Mora",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 2,
+  "effects": [
+   {
+    "code": "chooseMast"
+   }
+  ]
+ },
+ {
+  "id": "SPN-095b",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-096a",
+  "name": "Comandante Antonio de Silva",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 2,
+  "effects": [
+   {
+    "code": "hitKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "SPN-096b",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-097",
+  "name": "Shipping Charts",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "peekCargo"
+   }
+  ]
+ },
+ {
+  "id": "SPN-098",
+  "name": "Marksman's Map",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "peekIsland"
+   }
+  ]
+ },
+ {
+  "id": "SPN-099",
+  "name": "Forged Papers",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-100",
+  "name": "Homemade Flag",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "shortenEnemyRange"
+   }
+  ]
+ },
+ {
+  "id": "SPN-101",
+  "name": "Rum",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "rum"
+   }
+  ]
+ },
+ {
+  "id": "SPN-102",
+  "name": "Plague",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "SPN-103",
+  "name": "Captain",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ]
+ },
+ {
+  "id": "SPN-104",
+  "name": "Captain",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ]
+ },
+ {
+  "id": "SPN-105",
+  "name": "Cannoneer",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "rerollMiss"
+   }
+  ]
+ },
+ {
+  "id": "SPN-106",
+  "name": "Captain",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ]
+ },
+ {
+  "id": "SPN-107",
+  "name": "Cannoneer",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 2,
+  "effects": [
+   {
+    "code": "rerollMiss"
+   }
+  ]
+ },
+ {
+  "id": "SPN-108",
+  "name": "Helmsman",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "plusS"
+   }
+  ]
+ },
+ {
+  "id": "SPN-109",
+  "name": "Cannoneer",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "effects": [
+   {
+    "code": "rerollMiss"
+   }
+  ]
+ },
+ {
+  "id": "SPN-110",
+  "name": "Helmsman",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "effects": [
+   {
+    "code": "plusS"
+   }
+  ]
+ },
+ {
+  "id": "SPN-111",
+  "name": "Helmsman",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 2,
+  "effects": [
+   {
+    "code": "plusS"
+   }
+  ]
+ },
+ {
+  "id": "SPN-112",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-113",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-114",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-115",
+  "name": "Musketeer",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "SPN-116",
+  "name": "Explorer",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "SPN-117",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-118",
+  "name": "Oarsman",
+  "kind": "crew",
+  "faction": "English",
+  "points": 1,
+  "effects": [
+   {
+    "code": "derelictMoveS"
+   },
+   {
+    "code": "noCargoSpace"
+   }
+  ]
+ },
+ {
+  "id": "SPN-119",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-120",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "SPN-121",
+  "name": "Shipwright",
+  "kind": "crew",
+  "faction": "Spanish",
+  "points": 2,
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ }
+]

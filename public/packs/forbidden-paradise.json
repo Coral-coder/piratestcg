@@ -1,0 +1,2155 @@
+[
+ {
+  "id": "POC-001",
+  "name": "Flying Dutchman",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 20,
+  "masts": 5,
+  "cargo": 5,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3S",
+   "3S",
+   "3S",
+   "3S"
+  ],
+  "links": [
+   "Davy Jones"
+  ],
+  "effects": [],
+  "unsupported": [
+   "eternal",
+   "ghost ship",
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-002",
+  "name": "HMS Dauntless",
+  "kind": "ship",
+  "faction": "English",
+  "points": 16,
+  "masts": 5,
+  "cargo": 5,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "2L",
+   "2L",
+   "2L",
+   "3S"
+  ],
+  "links": [
+   "Admiral James Norrington"
+  ],
+  "effects": [
+   {
+    "code": "ignoreFirstHit"
+   }
+  ]
+ },
+ {
+  "id": "POC-003",
+  "name": "HMS Endeavour",
+  "kind": "ship",
+  "faction": "English",
+  "points": 21,
+  "masts": 5,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2L",
+   "2L",
+   "2L",
+   "2L",
+   "2L"
+  ],
+  "effects": [
+   {
+    "code": "doubleHit"
+   }
+  ]
+ },
+ {
+  "id": "POC-004",
+  "name": "Grand Barnacle",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 13,
+  "masts": 5,
+  "cargo": 5,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "4S",
+   "3S",
+   "3S",
+   "3S",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "anyCrew"
+   }
+  ]
+ },
+ {
+  "id": "POC-005",
+  "name": "Jolly Mon",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 1,
+  "masts": 1,
+  "cargo": 1,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "slowWhenLoaded"
+   }
+  ]
+ },
+ {
+  "id": "POC-006",
+  "name": "Barnacle",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 12,
+  "masts": 1,
+  "cargo": 4,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "immuneL"
+   }
+  ]
+ },
+ {
+  "id": "POC-007",
+  "name": "HMS Adventure",
+  "kind": "ship",
+  "faction": "English",
+  "points": 7,
+  "masts": 1,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "anyCrew"
+   }
+  ]
+ },
+ {
+  "id": "POC-008",
+  "name": "HMS Trepassey",
+  "kind": "ship",
+  "faction": "English",
+  "points": 7,
+  "masts": 1,
+  "cargo": 3,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "plusSWhenEmpty"
+   }
+  ]
+ },
+ {
+  "id": "POC-009",
+  "name": "Empress",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 10,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2L",
+   "2S"
+  ],
+  "links": [
+   "Sao Feng"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "English"
+   }
+  ],
+  "unsupported": [
+   "junk"
+  ]
+ },
+ {
+  "id": "POC-010",
+  "name": "Empress",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "S"
+  ],
+  "cannons": [
+   "2S",
+   "2S",
+   "2S"
+  ],
+  "links": [
+   "Sao Feng"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusWithCaptain"
+   }
+  ],
+  "unsupported": [
+   "junk"
+  ]
+ },
+ {
+  "id": "POC-011",
+  "name": "Hanyu Pinyin",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 10,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "3L",
+   "4L"
+  ],
+  "effects": [],
+  "unsupported": [
+   "junk",
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-012",
+  "name": "Fuchuan",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 12,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "greedyBoarder"
+   }
+  ],
+  "unsupported": [
+   "junk"
+  ]
+ },
+ {
+  "id": "POC-013",
+  "name": "Hai Peng",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 13,
+  "masts": 2,
+  "cargo": 4,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "4S"
+  ],
+  "links": [
+   "Captain Barbossa"
+  ],
+  "effects": [
+   {
+    "code": "plusLWithCaptain"
+   }
+  ],
+  "unsupported": [
+   "junk"
+  ]
+ },
+ {
+  "id": "POC-014",
+  "name": "Song",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 2,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "4L"
+  ],
+  "effects": [],
+  "unsupported": [
+   "junk",
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-015",
+  "name": "Ningpo",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 7,
+  "masts": 2,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "4L"
+  ],
+  "effects": [
+   {
+    "code": "longShot"
+   }
+  ],
+  "unsupported": [
+   "junk"
+  ]
+ },
+ {
+  "id": "POC-016",
+  "name": "Kin Tai Fong",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 8,
+  "masts": 2,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "unpinnable"
+   }
+  ],
+  "unsupported": [
+   "junk"
+  ]
+ },
+ {
+  "id": "POC-017",
+  "name": "Cursed Captain Barbossa",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 5,
+  "links": [
+   "Cursed Black Pearl",
+   "Cursed Crew 1",
+   "Cursed Crew 2"
+  ],
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ],
+  "unsupported": [
+   "fear"
+  ]
+ },
+ {
+  "id": "POC-018",
+  "name": "Captain Elizabeth Swann",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 6,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-019",
+  "name": "Captain Jack Sparrow",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 5,
+  "links": [
+   "All Pirate ships"
+  ],
+  "effects": [],
+  "unsupported": [
+   "parley",
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-020",
+  "name": "Will Turner",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 7,
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-021a",
+  "name": "Pintel",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "links": [
+   "Ragetti"
+  ],
+  "effects": [
+   {
+    "code": "pickpocket"
+   }
+  ]
+ },
+ {
+  "id": "POC-021b",
+  "name": "Ragetti",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 1,
+  "links": [
+   "Pintel"
+  ],
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "POC-022a",
+  "name": "Tia Dalma",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 5,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-022b",
+  "name": "Damsel in Distress",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [],
+  "unsupported": [
+   "parley"
+  ]
+ },
+ {
+  "id": "POC-023a",
+  "name": "Cursed Crew 1",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "links": [
+   "Cursed Captain Barbossa"
+  ],
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "POC-023b",
+  "name": "Cursed Crew 2",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "links": [
+   "Cursed Captain Barbossa"
+  ],
+  "effects": [
+   {
+    "code": "rerollMiss"
+   }
+  ]
+ },
+ {
+  "id": "POC-024a",
+  "name": "Lian",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "links": [
+   "Captain Sao Feng"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-024b",
+  "name": "Park",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "links": [
+   "Captain Sao Feng"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-025",
+  "name": "Black Pearl",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 17,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "2L",
+   "2L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusWithCaptain"
+   },
+   {
+    "code": "plusSWithCaptain"
+   }
+  ]
+ },
+ {
+  "id": "POC-026",
+  "name": "Black Pearl",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 13,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "2S",
+   "2S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "crewImmortal"
+   }
+  ]
+ },
+ {
+  "id": "POC-027",
+  "name": "Fleur de la Mort",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 14,
+  "masts": 4,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "4L",
+   "4L",
+   "4S"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-028",
+  "name": "Wicked Wench",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 15,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "3L",
+   "3L",
+   "3L"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-029",
+  "name": "HMS Interceptor",
+  "kind": "ship",
+  "faction": "English",
+  "points": 14,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3L",
+   "3S"
+  ],
+  "links": [
+   "Admiral James Norrington"
+  ],
+  "effects": [
+   {
+    "code": "plusLWhenFull"
+   }
+  ]
+ },
+ {
+  "id": "POC-030",
+  "name": "HMS Success",
+  "kind": "ship",
+  "faction": "English",
+  "points": 9,
+  "masts": 4,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "3L",
+   "3L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "pinKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "POC-031",
+  "name": "Edinburgh Trader",
+  "kind": "ship",
+  "faction": "English",
+  "points": 11,
+  "masts": 3,
+  "cargo": 5,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "4L",
+   "3L",
+   "4L"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-032",
+  "name": "HMS Rose",
+  "kind": "ship",
+  "faction": "English",
+  "points": 14,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "fixedCannons"
+   }
+  ]
+ },
+ {
+  "id": "POC-033",
+  "name": "HMS Resistance",
+  "kind": "ship",
+  "faction": "English",
+  "points": 8,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "hitKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "POC-034",
+  "name": "Revenge",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "2S",
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "moveAfterUnload"
+   }
+  ]
+ },
+ {
+  "id": "POC-035",
+  "name": "Fortune",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3L",
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "chooseMast"
+   }
+  ]
+ },
+ {
+  "id": "POC-036",
+  "name": "Satisfaction",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "3L",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "hitKillsCargo"
+   }
+  ]
+ },
+ {
+  "id": "POC-037",
+  "name": "Seref",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "2L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "English"
+   },
+   {
+    "code": "boardBonusVs",
+    "faction": "English"
+   }
+  ],
+  "unsupported": [
+   "galley"
+  ]
+ },
+ {
+  "id": "POC-038",
+  "name": "Kirbac",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 7,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "misfire"
+   }
+  ],
+  "unsupported": [
+   "galley"
+  ]
+ },
+ {
+  "id": "POC-039",
+  "name": "Pearl",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 5,
+  "move": [
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "peekIsland"
+   }
+  ],
+  "unsupported": [
+   "galley"
+  ]
+ },
+ {
+  "id": "POC-040",
+  "name": "Swift",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 2,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ],
+  "unsupported": [
+   "galley"
+  ]
+ },
+ {
+  "id": "POC-041",
+  "name": "Otter",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 10,
+  "masts": 2,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "immuneL"
+   }
+  ],
+  "unsupported": [
+   "galley"
+  ]
+ },
+ {
+  "id": "POC-042",
+  "name": "Dragon",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 6,
+  "masts": 2,
+  "cargo": 5,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "weakVs",
+    "faction": "English"
+   }
+  ],
+  "unsupported": [
+   "galley"
+  ]
+ },
+ {
+  "id": "POC-043",
+  "name": "HMS Comet",
+  "kind": "ship",
+  "faction": "English",
+  "points": 7,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2L",
+   "2L"
+  ],
+  "effects": [
+   {
+    "code": "dockExplore"
+   }
+  ]
+ },
+ {
+  "id": "POC-044",
+  "name": "HMS Hound",
+  "kind": "ship",
+  "faction": "English",
+  "points": 7,
+  "masts": 2,
+  "cargo": 4,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "peekCargo"
+   }
+  ]
+ },
+ {
+  "id": "POC-045",
+  "name": "HMS Blazer",
+  "kind": "ship",
+  "faction": "English",
+  "points": 7,
+  "masts": 2,
+  "cargo": 3,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "unpinnable"
+   }
+  ]
+ },
+ {
+  "id": "POC-046",
+  "name": "Fancy",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 8,
+  "masts": 2,
+  "cargo": 2,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "unloadWithinS"
+   }
+  ]
+ },
+ {
+  "id": "POC-047",
+  "name": "Dolphin",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 7,
+  "masts": 2,
+  "cargo": 3,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3L",
+   "4L"
+  ],
+  "effects": [
+   {
+    "code": "hitKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "POC-048",
+  "name": "Paradox",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 4,
+  "masts": 2,
+  "cargo": 5,
+  "move": [
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "noShootLoaded"
+   }
+  ]
+ },
+ {
+  "id": "POC-049",
+  "name": "Princess",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 6,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "4L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cantLoadLast"
+   }
+  ]
+ },
+ {
+  "id": "POC-050",
+  "name": "Ranger",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 9,
+  "masts": 3,
+  "cargo": 3,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "3L",
+   "4S"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-051",
+  "name": "Centurion",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 10,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S",
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "chooseMast"
+   }
+  ]
+ },
+ {
+  "id": "POC-052",
+  "name": "HMS Raven",
+  "kind": "ship",
+  "faction": "English",
+  "points": 10,
+  "masts": 3,
+  "cargo": 4,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3L",
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "POC-053",
+  "name": "HMS Hyena",
+  "kind": "ship",
+  "faction": "English",
+  "points": 9,
+  "masts": 3,
+  "cargo": 5,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "2L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "pinKillsCrew"
+   }
+  ]
+ },
+ {
+  "id": "POC-054",
+  "name": "HMS Victor",
+  "kind": "ship",
+  "faction": "English",
+  "points": 9,
+  "masts": 3,
+  "cargo": 2,
+  "move": [
+   "S",
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "2L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "shipwright"
+   }
+  ]
+ },
+ {
+  "id": "POC-055",
+  "name": "Lord Cutler Beckett",
+  "kind": "crew",
+  "faction": "English",
+  "points": 6,
+  "links": [
+   "All English ships"
+  ],
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-056",
+  "name": "Calypso",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 6,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-057",
+  "name": "Captain Davy Jones",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 7,
+  "links": [
+   "Flying Dutchman"
+  ],
+  "effects": [],
+  "unsupported": [
+   "fear",
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-058",
+  "name": "Captain Jack Sparrow",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 6,
+  "links": [
+   "All Pirate ships"
+  ],
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-059",
+  "name": "Will Turner",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 6,
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ]
+ },
+ {
+  "id": "POC-060",
+  "name": "Elizabeth Swann",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-061",
+  "name": "Captain Sao Feng",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 5,
+  "links": [
+   "Lian",
+   "Park",
+   "Empress"
+  ],
+  "effects": [
+   {
+    "code": "extraAction"
+   }
+  ]
+ },
+ {
+  "id": "POC-062",
+  "name": "Captain Barbossa",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 7,
+  "links": [
+   "Black Pearl",
+   "Hai Peng"
+  ],
+  "effects": [
+   {
+    "code": "moveShoot"
+   },
+   {
+    "code": "cannonBonusVsNot",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "POC-063",
+  "name": "Admiral James Norrington",
+  "kind": "crew",
+  "faction": "English",
+  "points": 7,
+  "links": [
+   "HMS Interceptor",
+   "HMS Dauntless"
+  ],
+  "effects": [
+   {
+    "code": "moveShoot"
+   },
+   {
+    "code": "cannonBonusVsNot",
+    "faction": "English"
+   }
+  ]
+ },
+ {
+  "id": "POC-064",
+  "name": "Jack's Piece of Eight",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-065",
+  "name": "Davy Jones' Heart",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-066",
+  "name": "Jack's Compass",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-067",
+  "name": "Pirata Codex",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-068a",
+  "name": "Maccus",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "moveShoot"
+   }
+  ]
+ },
+ {
+  "id": "POC-068b",
+  "name": "Elizabeth's Piece of Eight",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-069a",
+  "name": "Jimmy Legs",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-069b",
+  "name": "Davy Jones' Key",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-070a",
+  "name": "Palafico",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 4,
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "POC-070b",
+  "name": "Pirate Globe",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-071a",
+  "name": "Bootstrap Bill Turner",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "plusS"
+   }
+  ]
+ },
+ {
+  "id": "POC-071b",
+  "name": "Dead Man's Chest",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-072a",
+  "name": "Governor Weatherby Swann",
+  "kind": "crew",
+  "faction": "English",
+  "points": 2,
+  "effects": [
+   {
+    "code": "plunder",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "POC-072b",
+  "name": "Marines",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-073a",
+  "name": "Mercer",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-073b",
+  "name": "Curse of the Black Spot",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-074a",
+  "name": "Mullroy",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-074b",
+  "name": "Gun",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-075a",
+  "name": "Murtog",
+  "kind": "crew",
+  "faction": "English",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "POC-075b",
+  "name": "Sword",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "boardBonus",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "POC-076a",
+  "name": "Joshamee Gibbs",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "crewDiscount"
+   }
+  ]
+ },
+ {
+  "id": "POC-076b",
+  "name": "Aztec Medallion",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-077a",
+  "name": "Anamaria",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "anyCrew"
+   }
+  ]
+ },
+ {
+  "id": "POC-077b",
+  "name": "Spyglass",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "peekCargo"
+   }
+  ]
+ },
+ {
+  "id": "POC-078a",
+  "name": "Cotton",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "plusS"
+   }
+  ]
+ },
+ {
+  "id": "POC-078b",
+  "name": "Letter of Marque",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-079a",
+  "name": "Marty",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "rerollMiss"
+   }
+  ]
+ },
+ {
+  "id": "POC-079b",
+  "name": "Rum",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "rum"
+   }
+  ],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-080a",
+  "name": "Norrington",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "musket"
+   }
+  ]
+ },
+ {
+  "id": "POC-080b",
+  "name": "Potions & Brews",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-081a",
+  "name": "Ammand the Corsair",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 2,
+  "effects": [
+   {
+    "code": "chooseMast"
+   }
+  ]
+ },
+ {
+  "id": "POC-081b",
+  "name": "Cotton's Parrot",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [
+   {
+    "code": "pickpocket"
+   }
+  ]
+ },
+ {
+  "id": "POC-082a",
+  "name": "Capitaine Chevalle",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 4,
+  "effects": [
+   {
+    "code": "hitKillsCargo"
+   }
+  ]
+ },
+ {
+  "id": "POC-082b",
+  "name": "Jailhouse Dog",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-083a",
+  "name": "Gentleman Jocard",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 3,
+  "effects": [
+   {
+    "code": "noCargoSpace"
+   },
+   {
+    "code": "cargoPlus"
+   }
+  ]
+ },
+ {
+  "id": "POC-083b",
+  "name": "Jail!",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-084a",
+  "name": "Sri Sumbhajee",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 4,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-084b",
+  "name": "Cannibals",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-085a",
+  "name": "Mistress Ching",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 4,
+  "effects": [
+   {
+    "code": "unloadWithinS"
+   }
+  ]
+ },
+ {
+  "id": "POC-085b",
+  "name": "Plunder",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-086a",
+  "name": "Captain Villanueva",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 4,
+  "effects": [
+   {
+    "code": "raidHome"
+   }
+  ]
+ },
+ {
+  "id": "POC-086b",
+  "name": "Smuggled Goods",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-087",
+  "name": "Black Pearl",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 16,
+  "masts": 4,
+  "cargo": 2,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3L",
+   "3L",
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusWithCaptain"
+   }
+  ],
+  "unsupported": [
+   "fear"
+  ]
+ },
+ {
+  "id": "POC-088",
+  "name": "Fantasia",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 1,
+  "cargo": 2,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "2S"
+  ],
+  "effects": [
+   {
+    "code": "cannonAura"
+   }
+  ]
+ },
+ {
+  "id": "POC-089",
+  "name": "Cursed Captain Jack",
+  "kind": "crew",
+  "faction": "Pirate",
+  "points": 7,
+  "effects": [],
+  "unsupported": [
+   "parley",
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-090",
+  "name": "Kraken Gong",
+  "kind": "treasure",
+  "points": 0,
+  "effects": [],
+  "unsupported": [
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-091",
+  "name": "HMS Diamond",
+  "kind": "ship",
+  "faction": "English",
+  "points": 11,
+  "masts": 4,
+  "cargo": 3,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3S",
+   "3S",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "Pirate"
+   }
+  ]
+ },
+ {
+  "id": "POC-092",
+  "name": "HMS Phoenix",
+  "kind": "ship",
+  "faction": "English",
+  "points": 10,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3L",
+   "3L",
+   "3L",
+   "3L"
+  ],
+  "effects": [
+   {
+    "code": "longShot"
+   }
+  ]
+ },
+ {
+  "id": "POC-093",
+  "name": "Neptune",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 4,
+  "cargo": 3,
+  "move": [
+   "S",
+   "S"
+  ],
+  "cannons": [
+   "3S",
+   "3L",
+   "3L",
+   "3S"
+  ],
+  "effects": [
+   {
+    "code": "cannonBonusVs",
+    "faction": "English"
+   }
+  ]
+ },
+ {
+  "id": "POC-094",
+  "name": "Sea Nymph",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 13,
+  "masts": 4,
+  "cargo": 4,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "3L",
+   "3S",
+   "4S"
+  ],
+  "effects": [
+   {
+    "code": "raidHome"
+   }
+  ]
+ },
+ {
+  "id": "POC-200",
+  "name": "A Feasome Creature",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 19,
+  "masts": 8,
+  "cargo": 0,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "3S",
+   "3S",
+   "2S",
+   "2S",
+   "3S",
+   "3S",
+   "4S"
+  ],
+  "effects": [],
+  "unsupported": [
+   "kraken"
+  ]
+ },
+ {
+  "id": "POC-201",
+  "name": "Beastie",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 22,
+  "masts": 8,
+  "cargo": 0,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3S",
+   "3S",
+   "3S",
+   "3S",
+   "3S",
+   "3S",
+   "3S"
+  ],
+  "effects": [],
+  "unsupported": [
+   "kraken",
+   "eternal"
+  ]
+ },
+ {
+  "id": "POC-202",
+  "name": "Kray-Kin",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 21,
+  "masts": 8,
+  "cargo": 0,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "4S",
+   "3S",
+   "2S",
+   "2S",
+   "2S",
+   "2S",
+   "3S",
+   "4S"
+  ],
+  "effects": [],
+  "unsupported": [
+   "kraken",
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-203",
+  "name": "The Kraken",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 24,
+  "masts": 8,
+  "cargo": 0,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "2S",
+   "2S",
+   "3S",
+   "2S",
+   "2S",
+   "2S",
+   "3S"
+  ],
+  "effects": [],
+  "unsupported": [
+   "kraken",
+   "eternal",
+   "ability"
+  ]
+ },
+ {
+  "id": "POC-300",
+  "name": "Flying Dutchman",
+  "kind": "ship",
+  "faction": "Pirate",
+  "points": 11,
+  "masts": 5,
+  "cargo": 5,
+  "move": [
+   "L"
+  ],
+  "cannons": [
+   "3S",
+   "3S",
+   "3S",
+   "3S",
+   "3S"
+  ],
+  "effects": []
+ }
+]

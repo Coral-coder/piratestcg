@@ -1,0 +1,33 @@
+{
+  "name": "piratestcg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial fan-made 3D browser game inspired by the Pirates constructible strategy game.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "bundle": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "chaos": "tsx scripts/chaos.ts",
+    "coverage-report": "tsx scripts/coverage.ts",
+    "check-mask": "node scripts/check-mask.mjs"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.5",
+    "@types/three": "^0.186.0",
+    "eslint": "^10.13.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}
