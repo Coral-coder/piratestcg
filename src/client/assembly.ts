@@ -1,12 +1,12 @@
 // Assembly view: punch each ship's pieces out of its card and snap them
 // together, like the printed game's plastic punch-out cards.
 import * as THREE from 'three';
-import { shipLength, type ShipDef, type Ship } from '../engine';
+import { shipLength, type ShipDef } from '../engine';
 import { sfx } from './audio';
 import { factionColors } from './content';
 import { getSettings, isSmallScreen, isTouch } from './settings';
 import { h } from './ui/dom';
-import { buildShip, disposeShared, lambert } from './game/models';
+import { buildShip, disposeObject, disposeShared, lambert, previewShip } from './game/models';
 
 interface Piece {
   obj: THREE.Object3D;
@@ -19,13 +19,6 @@ interface Piece {
   hull: boolean;
 }
 
-function fakeShip(def: ShipDef, owner: number): Ship {
-  return {
-    id: 0, owner, originalOwner: owner, def, x: 0, y: 0, heading: 0, masts: new Array(def.masts).fill(true), crew: [], cargo: [], uniques: [], sunk: false, docked: null, pinnedTo: null, towing: null, towedBy: null,
-    actionsUsed: 0, actionsAllowed: 1, lastActionKind: null, sameKindOnly: false,
-    flags: { extraRolled: false, rerollUsed: false, hitCrewUsed: false, firstHitIgnored: false, pickpocketUsed: false, peekUsed: false, rumTurn: -10, once: [] },
-  };
-}
 
 const easeOutBack = (t: number) => {
   const c1 = 1.9;
@@ -78,7 +71,10 @@ export function runAssembly(host: HTMLElement, defs: ShipDef[], onDone: () => vo
   ro.observe(stage);
 
   function clearShip() {
-    if (shipGroup) scene.remove(shipGroup);
+    if (shipGroup) {
+      scene.remove(shipGroup);
+      disposeObject(shipGroup);
+    }
     while (cardGroup.children.length) {
       const c = cardGroup.children[0] as THREE.Mesh;
       cardGroup.remove(c);
@@ -102,7 +98,7 @@ export function runAssembly(host: HTMLElement, defs: ShipDef[], onDone: () => vo
     face.rotation.x = -Math.PI / 2;
     face.position.set(-L / 2, 0.005, 1.2);
     cardGroup.add(face);
-    const v = buildShip(fakeShip(def, 0));
+    const v = buildShip(previewShip(def, 0));
     v.ring.visible = false;
     shipGroup = v.group;
     scene.add(shipGroup);

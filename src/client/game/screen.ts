@@ -31,7 +31,7 @@ import { sfx } from '../audio';
 import { getSettings } from '../settings';
 import { cardEl } from '../ui/card';
 import { clear, dieFace, h, modal, toast } from '../ui/dom';
-import { basic, buildShip, poseShip } from './models';
+import { basic, buildShip, disposeObject, poseShip } from './models';
 import { World } from './world';
 
 const HUMAN = 0;
@@ -420,7 +420,11 @@ export class GameScreen {
 
   private clearOverlay() {
     const o = this.world.overlay;
-    while (o.children.length) o.remove(o.children[0]);
+    while (o.children.length) {
+      const c = o.children[0];
+      o.remove(c);
+      disposeObject(c);
+    }
     this.ghost = null;
   }
 
